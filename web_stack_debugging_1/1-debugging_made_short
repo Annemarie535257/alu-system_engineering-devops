@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Making debugging short and sweet
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx start
+sleep 2
 sudo service nginx stop
